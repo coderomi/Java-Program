@@ -8,7 +8,7 @@ class ReverseMethod {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter your number: ");
-        num = sc.nextInt();   // ✅ assign directly to static variable
+        num = sc.nextInt();   
 
         System.out.println("Before: " + num);
         reverseM();
@@ -22,6 +22,6 @@ class ReverseMethod {
             rev = rev * 10 + rem;
             num /= 10;
         }
-        num = rev;   // ✅ assign reversed value back
+        num = rev; 
     }
 }

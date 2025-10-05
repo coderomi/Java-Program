@@ -9,9 +9,7 @@ class PalindromeCheck{
  		str=sc.next();
  		// System.out.println(str);
  		reveserString2();
- 	
  		
- 		// }
  		if(str.equals(rev)){
  			System.out.println(str+":-is palidromic string");
 

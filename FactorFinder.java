@@ -2,23 +2,23 @@ import java.util.Scanner;
 
 class FactorFinder {
 
-    static int num;   // number to find factors for
+    static int num;  
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number");
-        num = sc.nextInt();   // input number
+        num = sc.nextInt();   
 
-        findFactors();        // call void no-argument method
+        findFactors();       
     }
 
-    public static void findFactors() {  // no-argument void method
+    public static void findFactors() {  
         System.out.print("Factors of " + num + " are: ");
         for (int i = 1; i <= num; i++) {
             if (num % i == 0) {
                 System.out.println(i + " ");
             }
         }
-        System.out.println(); // new line after printing all factors
+        System.out.println(); 
     }
 }
